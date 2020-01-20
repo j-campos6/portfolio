@@ -1,0 +1,58 @@
+p {color: red;}
+
+body {background-color:	#ffb3ff;}
+
+.purple-text {color: rgba(0,0,255, .5);}
+
+.important {font-weight: bold;}
+
+.important:hover {background-color: #0000FF;}
+
+a[href="about-me.html"]{background-color: blue;}
+
+a[href="index.html"]
+{background-color: orange;
+  padding: 1rem;
+}
+
+h1 {
+  color: red;
+  border-style: dotted;
+  border-width:2px;
+  border-color: gray;
+}
+
+h2 {
+  color: #FF00FF;
+  border-style: double;
+  border-width:1px;
+  border-color: red;
+}
+
+p.important {
+  width: 50%
+}
+
+img {
+  border-style: double;
+  border-color: blue;
+  border-width: 3px;
+  width: 20%;
+}
+
+.par-text {
+  color: green;
+  outline: 3px dotted green;
+}
+
+#quoting {
+  quotes: "<<" ">>";
+}
+
+footer.centro {
+  text-align: center;
+}
+
+img.i{
+  vertical-align: middle;
+}
