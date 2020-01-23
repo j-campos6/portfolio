@@ -1,4 +1,7 @@
-p {color: red;}
+p  {
+  color: red;
+  font-family: 'Averia Serif Libre', cursive;
+}
 
 body {background-color:	#ffb3ff;}
 
@@ -8,11 +11,16 @@ body {background-color:	#ffb3ff;}
 
 .important:hover {background-color: #0000FF;}
 
-a[href="about-me.html"]{background-color: blue;}
+a[href="about-me.html"]{background-color: green;}
 
 a[href="index.html"]
 {background-color: orange;
   padding: 1rem;
+}
+
+.fa-space-shuttle {
+  color: blue;
+  font-size: 50px;
 }
 
 h1 {
@@ -20,6 +28,7 @@ h1 {
   border-style: dotted;
   border-width:2px;
   border-color: gray;
+  font-family: 'Bangers', cursive;
 }
 
 h2 {
@@ -27,6 +36,7 @@ h2 {
   border-style: double;
   border-width:1px;
   border-color: red;
+  font-family: 'Bangers', cursive;
 }
 
 p.important {
@@ -55,4 +65,9 @@ footer.centro {
 
 img.i{
   vertical-align: middle;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
