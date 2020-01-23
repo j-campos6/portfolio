@@ -3,6 +3,7 @@ p  {
   font-family: 'Averia Serif Libre', cursive;
 }
 
+
 body {background-color:	#ffb3ff;}
 
 .purple-text {color: rgba(0,0,255, .5);}
@@ -21,7 +22,15 @@ a[href="index.html"]
 .fa-space-shuttle {
   color: blue;
   font-size: 50px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
+
+.fa-space-shuttle:hover {
+visibility: hidden;
+}
+
 
 h1 {
   color: red;
@@ -40,14 +49,29 @@ h2 {
 }
 
 p.important {
-  width: 50%
+  width: 50%;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
 
-img {
+.important:hover{
+  background-color: yellow;
+}
+
+img.i {
   border-style: double;
   border-color: blue;
   border-width: 3px;
   width: 20%;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+.i:hover{
+  height: 200px;
+  border-radius: 50%;
 }
 
 .par-text {
