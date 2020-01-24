@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 9 Web form</title>
+      <link rel="stylesheet" type="text/css" href="styles/web-form.css">
+  </head>
+  <body>
+    <h1>Team Drone Racing Sign-up</h1>
+    <form method="GET">
+
+    <!--input 1-->
+      <label>Team Name:
+        <input type="text" name="applicantName">
+      </label>
+
+    <!--input 2-->
+      <fieldset>
+        <legend>What days do you prefer to race?</legend>
+        <label> Monday
+          <input type="checkbox" name="raceDay" value="monday">
+        </label>
+        <label> Tueday
+          <input type="checkbox" name="raceDay" value="tuesday">
+        </label>
+        <label> Wednesday
+          <input type="checkbox" name="raceDay" value="wednesday">
+        </label>
+        <label> Thursday
+          <input type="checkbox" name="raceDay" value="thursday">
+        </label>
+        <label> Friday
+          <input type="checkbox" name="raceDay" value="friday">
+        </label>
+      </fieldset>
+
+    <!--line break-->
+      <br>
+
+    <!--input 3-->
+      <fieldset>
+        <legend>Are you interested in racing on the weekend?</legend>
+        <label>Yes
+          <input type="radio" name="weekend" value="yes">
+        </label>
+        <label>No
+          <input type="radio" name="weekend" value="no">
+        </label>
+      </fieldset>
+
+      <!--line break-->
+        <br>
+
+    <!--input 4-->
+      <label> How many racers in your team?
+        <select name="racers">
+          <option value="2or-less">2 or less</option>
+          <option value="2to-5">2 to 5</option>
+          <option value="5to-10">5 to 10</option>
+        </select>
+      </label>
+
+      <!--line break-->
+        <br>
+
+    <!--input 5-->
+      <label for="email-address">Enter team captain's email:</label>
+      <input id="email-address" type="email">
+
+      <!--line break-->
+        <br>
+
+    <!--input 6-->
+
+      <input type="submit" value="Submit">
+
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,21 @@
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1REM;
+}
+
+input[type = text] {
+  width: 100%;
+  background-color: #4dd0e1;
+}
+
+input[type = Submit] {
+  background-color: yellow;
+  outline: none;
+}
+
+input {
+  border-radius: 15px;
+}
